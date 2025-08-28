@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Shruti Chauhan</div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger">&#9776;</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Shruti Chauhan</h1>
+      <!-- Typing effect text -->
+      <h2 class="typing">MERN-Stack Developer • Data Analyst</h2>
+    </div>
+    <div class="hero-photo">
+      <img src="images/profile.png" alt="Profile">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+    "Hi, I’m Shruti Chauhan. I blend creativity and logic—whether it’s developing full-stack applications with the MERN stack or turning raw data into powerful insights. My goal is to design digital solutions that are both functional and impactful, bridging the gap between technology and decision-making."
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill">
+      <p>HTML, CSS, JavaScript, Tailwind</p>
+      <div class="skill-bar"><div class="skill-fill" data-skill="90%"></div></div>
+    </div>
+    <div class="skill">
+      <p>MongoDb, React.js, Node.js, SQL</p>
+      <div class="skill-bar"><div class="skill-fill" data-skill="85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Data Analyst, PowerBI, Excel, Google Sheets, Dashboards, SQL, Python</p>
+      <div class="skill-bar"><div class="skill-fill" data-skill="80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Speaking skills, Team leading, Logical thinking</p>
+      <div class="skill-bar"><div class="skill-fill" data-skill="75%"></div></div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <h2>My Experience</h2>
+    <div class="experience-cards">
+      <div class="exp-card">
+        <img src="images/abp.png" alt="ABP Network">
+        <h3>ABP Network</h3>
+        <p>MERN STACK Developer Intern (2025)</p>
+       
+      </div>
+      <div class="exp-card">
+        <img src="images/drdo.png" alt="DRDO">
+        <h3>DRDO</h3>
+        <p>Research Intern (2024)</p>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>User Analytics Dashboard</h3>
+        <p>Built a responsive dashboard to visualize user behavior and metrics using React, Tailwind CSS,
+SQL, Node.js, and Express.js.</p>
+      </div>
+      <div class="card">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Web Chat Application</h3>
+        <p>Developed a real-time messaging platform with React and MongoDB, integrating Socket.IO and
+Express backend.</p>
+      </div>
+      <div class="card">
+        <img src="images/project3.png" alt="Project 3">
+        <h3>Multivendor Ecommerce Website</h3>
+        <p>Created scalable ecommerce frontend with React, integrated Stripe & PayPal payments, and used
+Socket.IO for real-time updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Social Links Section -->
+  <section class="socials">
+    <h2>Connect with Me</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/shruti-chauhan-35a988227/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/Shrutichauha" target="_blank">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+      <a href="https://leetcode.com/u/shrutichuahan/" target="_blank">
+        <i class="fas fa-code"></i>
+        <span>Leetcode</span>
+      </a>
+      <a href="mailto:shrutic023@gmail.com">
+        <i class="fas fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Shruti Chauhan | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
